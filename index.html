@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DayZ Example Page showcasing the survival video game features, gameplay, and media.">
     <title>DayZ Example Page</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -10,13 +11,13 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container justify-content-end">
+            <div class="container-fluid">
                 <a class="navbar-brand" href="#">DayZ</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item active">
                             <a class="nav-link" href="#">Home</a>
                         </li>
@@ -43,38 +44,33 @@
         </nav>
     </header>
 
-    <div class="container text-right mt-5">
+    <main class="container mt-5">
         <section id="about">
             <h2>About DayZ</h2>
             <p>
-                DayZ is a survival video game developed and published by Bohemia
-                Interactive. It is set in an open-world post-apocalyptic environment
-                where players must scavenge for resources, food, water, and weapons to
-                survive.
+                DayZ is a survival video game developed and published by Bohemia Interactive. It is set in an open-world post-apocalyptic environment
+                where players must scavenge for resources, food, water, and weapons to survive.
             </p>
         </section>
 
-        <section id="gameplay">
+        <section id="gameplay" class="mt-4">
             <h2>Gameplay</h2>
             <p>
-                In DayZ, players can explore the vast landscape, interact with other
-                survivors, build shelters, hunt for food, and engage in both PvE and PvP
-                encounters. The game is known for its challenging survival mechanics and
-                intense player interactions.
+                In DayZ, players can explore the vast landscape, interact with other survivors, build shelters, hunt for food, and engage in both PvE and PvP
+                encounters. The game is known for its challenging survival mechanics and intense player interactions.
             </p>
         </section>
 
-        <section id="media">
+        <section id="media" class="mt-4">
             <h2>Media</h2>
-            <img src="src/dayz-image.jpeg" alt="DayZ Screenshot" />
-            <p>
-                Explore the breathtaking landscapes of DayZ as you navigate through
-                abandoned towns and face various challenges.
+            <img src="src/dayz-image.jpeg" alt="DayZ Screenshot" class="img-fluid" />
+            <p class="mt-2">
+                Explore the breathtaking landscapes of DayZ as you navigate through abandoned towns and face various challenges.
             </p>
         </section>
-    </div>
+    </main>
 
-    <footer class="text-center">
+    <footer class="text-center mt-5 py-3 bg-dark text-white">
         <p>&copy; 2023 DayZ Fan Page. All rights reserved.</p>
     </footer>
 
